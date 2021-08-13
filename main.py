@@ -42,7 +42,7 @@ def find_paths(routes, start, end, max_segments=0):
                 routes_without_dest[key] = values
         return routes_without_dest
 
-    #creating a data base to find foutes
+    #creating a data base to find routes
     data = without_dest(routes, end)
 
     #graph search algorithm
